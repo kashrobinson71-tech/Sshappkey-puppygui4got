@@ -125,4 +125,7 @@ cd /path/to/your/project
 
 ## License
 
-This project follows the same licensing approach as referenced in the Gitea project.
+This project follows the same licensing approach as referenced in the Gitea project. epository custom instructions in use
+The instructions in the file(s) are available for use by Copilot Chat as soon as you save the file(s). The complete set of instructions will be automatically added to requests that you submit to Copilot in the context of that repository. For example, they are added to the prompt you submit to Copilot Chat.
+
+Custom instructions are not visible in the Chat view or inline chat, but you can verify that they are being used by Copilot by looking at the References list of a response in the Chat view. If custom instructions were added to the prompt that was sent to the model, the .github/copilot-instructions.md file is listed as a reference. You can click the reference to open the file.
